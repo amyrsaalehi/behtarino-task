@@ -34,7 +34,7 @@ Using `ISR` technology instead of `SSR` or `SSG` is much more better because it'
 
 These options would make the app better:
 
-- Using `Context API` instead of drilling props.
+- Using `Context API` instead of drilling props. (It's not approptiate for now because when we want to use this we should have SPA version of our app and loading components and etc...)
 - Add toggle button for `next-themes` to set theme state (with its persistance).
 - Add `next-pwa` in `next.config.js` file to have caching. (and offline support by adding `_offline.jsx` file in `pages` directory).
 
