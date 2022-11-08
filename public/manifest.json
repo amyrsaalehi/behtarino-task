@@ -1,0 +1,16 @@
+{
+  "name": "Behtarino App",
+  "short_name": "Behtarino",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2b9797",
+  "background_color": "#2b9797",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
