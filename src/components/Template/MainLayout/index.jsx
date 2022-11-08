@@ -11,7 +11,7 @@ export default function MainLayout({
         <title>{title ? `${title} | Behtarino` : "Behtarino"}</title>
         <meta name="description" content={description} />
       </Head>
-      <main>{children}</main>
+      {children}
     </>
   );
 }

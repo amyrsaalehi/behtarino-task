@@ -4,11 +4,11 @@ import Layout from "src/components/Template/MainLayout";
 export default function Home({ products }) {
   return (
     <Layout>
-      <div className="flex flex-wrap justify-center gap-4 py-12">
+      <main className="flex flex-wrap justify-center gap-4 py-12">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
-      </div>
+      </main>
     </Layout>
   );
 }
