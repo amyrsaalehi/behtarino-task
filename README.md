@@ -42,3 +42,12 @@ These options would make the app better:
 ## Deploy on Vercel
 
 You can check out [Live Demo](https://github.com/vercel/next.js/).
+
+## PAY ATTENTION!
+
+I wanted to add `cypress e2e` testing but for installtion (`npm run cypress:install`) it seems that needs VPN!
+but these Items should be tested:
+
+- Home page should have exactly 20 products as the `cy` intercepts the `GET` request from fakestoreapi. (`data-testid=PRODUCT_CARD`)
+- Product detail pages should contains exactly the same Title as the `cy` intercepts the `GET` request from fakestoreapi. (`data-testid=PRODUCT_TITLE`)
+- Other infos about Product details can be tested but it's optional for more assurance!
