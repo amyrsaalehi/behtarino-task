@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="light">
       <NextNProgress
-        color="#570DF8"
+        color="#02cccc"
         options={{
           showSpinner: false,
         }}
