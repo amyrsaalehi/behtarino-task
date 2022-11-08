@@ -22,9 +22,21 @@ npm run cypress
 yarn cypress
 ```
 
+## Preferable Structure
+
+I used `Atomic Design` for directory structure.
+
 ## Preferable Technology
 
-I prefer to use `ISR` technology instead of `SSR` or `SSG` because it's as fast as `SSG` and dynamic like `SSR`.
+Using `ISR` technology instead of `SSR` or `SSG` is much more better because it's as fast as `SSG` and dynamic like `SSR`.
+
+## Make it better
+
+These options would make the app better:
+
+- Using `Context API` instead of drilling props.
+- Add toggle button for `next-themes` to set theme state (with its persistance).
+- Add `next-pwa` in `next.config.js` file to have caching. (and offline support by adding `_offline.jsx` file in `pages` directory).
 
 ## Deploy on Vercel
 
