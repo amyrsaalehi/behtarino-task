@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProductCard({ product }) {
   return (
@@ -17,7 +18,13 @@ export default function ProductCard({ product }) {
         <h2 className="card-title">{product.title.slice(0, 25)}...</h2>
         <p>{product.description.slice(0, 120)}...</p>
         <div className="card-actions justify-end">
-          <button className="w-full btn btn-primary">Visit</button>
+          {/* In Next.js 13 we don't need to wrap an anchor tag with Link component anymore! */}
+          <Link
+            href={`/products/${product.id}`}
+            className="w-full btn btn-primary"
+          >
+            Visit
+          </Link>
         </div>
       </div>
     </div>
