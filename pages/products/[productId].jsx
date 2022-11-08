@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Layout from "src/components/Layout";
+import Layout from "src/components/Template/MainLayout";
 import { calculatePrice } from "src/helpers/typography";
 
 export default function ProductPage({ product }) {

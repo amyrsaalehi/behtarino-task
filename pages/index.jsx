@@ -1,9 +1,7 @@
-import Image from "next/image";
-import Layout from "src/components/Layout";
-import ProductCard from "src/components/ProductCard";
+import ProductCard from "src/components/Organisms/ProductCard";
+import Layout from "src/components/Template/MainLayout";
 
 export default function Home({ products }) {
-  console.log(products);
   return (
     <Layout>
       <div className="flex flex-wrap justify-center gap-4 py-12">

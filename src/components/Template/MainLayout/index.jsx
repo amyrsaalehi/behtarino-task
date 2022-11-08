@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function Layout({
+export default function MainLayout({
   title = "",
   description = "Behtarino Task Demo",
   children,
@@ -8,7 +8,7 @@ export default function Layout({
   return (
     <>
       <Head>
-        <title>{title && `${title} | `}Behtarino</title>
+        <title>{title ? `${title} | Behtarino` : "Behtarino"}</title>
         <meta name="description" content={description} />
       </Head>
       <main>{children}</main>
