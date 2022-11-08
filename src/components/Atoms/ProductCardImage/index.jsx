@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ProductCardImage({ image, title }) {
+export default function ProductCardImage({ image, title, priority }) {
   return (
     <figure className="relative">
       <Image
@@ -9,7 +9,7 @@ export default function ProductCardImage({ image, title }) {
         alt={title}
         width={200}
         height={200}
-        priority
+        priority={priority}
       />
     </figure>
   );

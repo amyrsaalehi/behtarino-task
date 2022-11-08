@@ -5,8 +5,8 @@ export default function Home({ products }) {
   return (
     <Layout>
       <main className="flex flex-wrap justify-center gap-4 py-12">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
+        {products.map((product, idx) => (
+          <ProductCard key={product.id} product={product} priority={idx <= 3} />
         ))}
       </main>
     </Layout>
