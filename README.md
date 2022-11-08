@@ -41,7 +41,7 @@ These options would make the app better:
 
 ## Deploy on Vercel
 
-You can check out [Live Demo](https://github.com/vercel/next.js/).
+You can check out [Live Demo](https://behtarino-task.vercel.app/).
 
 ## PAY ATTENTION!
 
